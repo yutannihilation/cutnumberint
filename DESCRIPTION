@@ -1,5 +1,5 @@
 Package: cutnumberint
-Title: Cut integerish data nicely
+Title: Cut integer-ish data nicely
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Hiroaki",

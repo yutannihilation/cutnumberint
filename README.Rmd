@@ -16,6 +16,7 @@ knitr::opts_chunk$set(
 # cutnumberint
 
 <!-- badges: start -->
+[![R build status](https://github.com/yutannihilation/cutnumberint/workflows/R-CMD-check/badge.svg)](https://github.com/yutannihilation/cutnumberint/actions)
 <!-- badges: end -->
 
 A simple R package to provide only one function `cut_number_int()`, a nicer version of `ggplot2::cut_number()`.
@@ -73,3 +74,6 @@ For simplicity, this package handles only the cases where the inflated values ar
 cut_number_int(c(0, rep(1, 100), 2:9), 5)
 ```
 
+If you need more powerful functions, probably you can find nicer binning packages on CRAN.
+
+* <https://www.r-pkg.org/search.html?q=binning>

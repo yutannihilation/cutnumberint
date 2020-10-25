@@ -4,6 +4,9 @@
 # cutnumberint
 
 <!-- badges: start -->
+
+[![R build
+status](https://github.com/yutannihilation/cutnumberint/workflows/R-CMD-check/badge.svg)](https://github.com/yutannihilation/cutnumberint/actions)
 <!-- badges: end -->
 
 A simple R package to provide only one function `cut_number_int()`, a
@@ -69,3 +72,8 @@ the data range, `cut_number_int()`.
 
     cut_number_int(c(0, rep(1, 100), 2:9), 5)
     #> Error: For simplicity, this function only takes care the cases when the inflated values are on the lowest bounds
+
+If you need more powerful functions, probably you can find nicer binning
+packages on CRAN.
+
+-   <a href="https://www.r-pkg.org/search.html?q=binning" class="uri">https://www.r-pkg.org/search.html?q=binning</a>

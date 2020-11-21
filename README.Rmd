@@ -35,7 +35,7 @@ devtools::install_github("yutannihilation/cutnumberint")
 library(ggplot2)
 
 set.seed(403)
-x <- rpois(100, 0.5)
+x <- c(rep(0, 100), rpois(100, 2))
 
 cut_number(x, n = 3)
 ```

@@ -11,6 +11,8 @@ cut_number_int(x, n, retry = 3L, show_highest_value = FALSE)
 
 \item{n}{number of bins to create.}
 
+\item{retry}{number of maximum attempts to calculate the non-duplicated breaks for the given.}
+
 \item{show_highest_value}{if \code{FALSE}, do not show the highest value in the label (i.e. the label would be \code{"100~"}).}
 }
 \description{

@@ -3,6 +3,7 @@
 #' @rdname cut_number_int
 #' @param x a numeric vector which is to be converted to a factor by cutting.
 #' @param n number of bins to create.
+#' @param retry number of maximum attempts to calculate the non-duplicated breaks for the given.
 #' @param show_highest_value if `FALSE`, do not show the highest value in the label (i.e. the label would be `"100~"`).
 #' @export
 cut_number_int <- function(x, n, retry = 3L, show_highest_value = FALSE) {

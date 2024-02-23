@@ -4,7 +4,7 @@
 \name{cutnumberint-package}
 \alias{cutnumberint}
 \alias{cutnumberint-package}
-\title{cutnumberint: Cut integerish data nicely}
+\title{cutnumberint: Cut integer-ish data nicely}
 \description{
 Provides a nicer version of cut_number()
 }

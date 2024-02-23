@@ -16,7 +16,7 @@ knitr::opts_chunk$set(
 # cutnumberint
 
 <!-- badges: start -->
-[![R build status](https://github.com/yutannihilation/cutnumberint/workflows/R-CMD-check/badge.svg)](https://github.com/yutannihilation/cutnumberint/actions)
+[![R-CMD-check](https://github.com/yutannihilation/cutnumberint/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/yutannihilation/cutnumberint/actions/workflows/R-CMD-check.yaml)
 [![cutnumberint status badge](https://yutannihilation.r-universe.dev/badges/cutnumberint)](https://yutannihilation.r-universe.dev/cutnumberint)
 <!-- badges: end -->
 

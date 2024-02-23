@@ -7,6 +7,8 @@
 
 [![R build
 status](https://github.com/yutannihilation/cutnumberint/workflows/R-CMD-check/badge.svg)](https://github.com/yutannihilation/cutnumberint/actions)
+[![cutnumberint status
+badge](https://yutannihilation.r-universe.dev/badges/cutnumberint)](https://yutannihilation.r-universe.dev/cutnumberint)
 <!-- badges: end -->
 
 A simple R package to provide only one function `cut_number_int()`, a
@@ -15,7 +17,7 @@ nicer version of `ggplot2::cut_number()`.
 ## Installation
 
 ``` r
-devtools::install_github("yutannihilation/cutnumberint")
+install.packages("cutnumberint", repos = c("https://yutannihilation.r-universe.dev", "https://cloud.r-project.org"))
 ```
 
 ## Example
@@ -31,7 +33,8 @@ set.seed(403)
 x <- c(rep(0, 100), rpois(100, 2))
 
 cut_number(x, n = 3)
-#> Error: Insufficient data values to produce 3 bins.
+#> Error in `cut_number()`:
+#> ! Insufficient data values to produce 3 bins.
 ```
 
 Second one is a general complaint about `cut()`. For integer(-ish) data,
@@ -90,10 +93,11 @@ the data range, `cut_number_int()`.
 
 ``` r
 cut_number_int(c(0, rep(1, 100), 2:9), 5)
-#> Error: For simplicity, this function only takes care the cases when the inflated values are on the lowest bounds
+#> Error in `cut_number_int()`:
+#> ! For simplicity, this function only takes care the cases when the inflated values are on the lowest bounds
 ```
 
 If you need more powerful functions, probably you can find nicer binning
 packages on CRAN.
 
--   <https://www.r-pkg.org/search.html?q=binning>
+- <https://www.r-pkg.org/search.html?q=binning>

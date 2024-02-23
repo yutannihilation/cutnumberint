@@ -17,6 +17,7 @@ knitr::opts_chunk$set(
 
 <!-- badges: start -->
 [![R build status](https://github.com/yutannihilation/cutnumberint/workflows/R-CMD-check/badge.svg)](https://github.com/yutannihilation/cutnumberint/actions)
+[![cutnumberint status badge](https://yutannihilation.r-universe.dev/badges/cutnumberint)](https://yutannihilation.r-universe.dev/cutnumberint)
 <!-- badges: end -->
 
 A simple R package to provide only one function `cut_number_int()`, a nicer version of `ggplot2::cut_number()`.
@@ -24,7 +25,7 @@ A simple R package to provide only one function `cut_number_int()`, a nicer vers
 ## Installation
 
 ``` r
-devtools::install_github("yutannihilation/cutnumberint")
+install.packages("cutnumberint", repos = c("https://yutannihilation.r-universe.dev", "https://cloud.r-project.org"))
 ```
 
 ## Example
